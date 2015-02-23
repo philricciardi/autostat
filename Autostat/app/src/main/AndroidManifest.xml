@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="philricciardi.pace.com.autostat" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="philricciardi.pace.com.autostat.Customer_Login_Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="philricciardi.pace.com.autostat.Mechanic_login_activity"
+            android:label="@string/title_activity_mechanic_login_activity" >
+        </activity>
+        <activity
+            android:name="philricciardi.pace.com.autostat.Mechanic_Home_Activity"
+            android:label="@string/title_activity_mechanic__home_" >
+        </activity>
+        <activity
+            android:name="philricciardi.pace.com.autostat.Customer_Sign_Up"
+            android:label="@string/title_activity_customer__sign__up" >
+        </activity>
+    </application>
+
+</manifest>

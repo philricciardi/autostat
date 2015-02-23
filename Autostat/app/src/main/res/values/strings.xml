@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Autostat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_name_label">Name</string>
+    <string name="input_service_code_label">Service Code</string>
+    <string name="input_email_label">Email</string>
+    <string name="input_password_label">Password</string>
+    <string name="input_confirm_password_label">Confirm</string>
+    <string name="input_shop_name_label">Shop Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="title_activity_mechanic_login_activity">mechanic_login_activity</string>
+    <string name="customer_sign_in">Customer Sign In</string>
+    <string name="mechanic_sign_in">Mechanic Sign In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_users_text">New to autostat? Create an account.</string>
+    <string name="autoshop_login">Auto Shop Login</string>
+    <string name="shop_spinner_default_prompt">select</string>
+    <string name="retrieve_customer_web_service">http://www.philricciardi.com/autostat/test.php</string>
+    <string name="retrieve_location_web_service">http://www.philricciardi.com/autostat/retrieve_location.php</string>
+    <string name="insert_mechanic_web_service">http://www.philricciardi.com/autostat/insert_mechanic.php</string>
+    <string name="insert_customer_web_service">http://www.philricciardi.com/autostat/insert_customer.php</string>
+    <string name="retrieve_customer_list_web_service">http://www.philricciardi.com/autostat/retrieve_customers.php</string>
+    <string name="title_activity_mechanic__home_">Mechanic_Home_Activity</string>
+    <string name="title_activity_customer__sign__up">Customer_Sign_Up</string>
+
+</resources>

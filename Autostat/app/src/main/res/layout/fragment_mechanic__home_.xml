@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="philricciardi.pace.com.autostat.Mechanic_Home_Activity$PlaceholderFragment">
+
+    <ImageView
+        android:id="@+id/autostat_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:src="@drawable/autostat_logo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/sign_up_cust_btn"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/autostat_logo"
+        android:text="Sign Up Customer"
+        android:layout_centerHorizontal="true"
+        android:onClick="signUpCustomer"/>
+
+    <TextView
+        android:id="@+id/customer_name_label"
+        android:layout_below="@+id/sign_up_cust_btn"
+        android:text="Customer"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/customer_email_label"
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_up_cust_btn"
+        android:layout_toRightOf="@+id/customer_name_label"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/customer_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_name_label">
+    </ListView>
+
+</RelativeLayout>

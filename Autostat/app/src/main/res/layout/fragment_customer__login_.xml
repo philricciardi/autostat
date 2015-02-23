@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Customer_Login_Activity$PlaceholderFragment">
+
+    <ImageView
+        android:id="@+id/autostat_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:src="@drawable/autostat_logo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/input_view"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/autostat_logo">
+
+        <TextView
+            android:id="@+id/customer_sign_in"
+            android:text="@string/customer_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/input_email_label"
+            android:text="@string/input_email_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_below="@+id/customer_sign_in"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="220dp"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customer_sign_in"
+            android:layout_toRightOf="@+id/input_email_label"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/input_service_code_label"
+            android:text="@string/input_service_code_label"
+            android:layout_below="@+id/input_email_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/input_service_code"
+            android:layout_width="160dp"
+            android:layout_below="@+id/input_email"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/input_service_code_label"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/customer_next_button"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:layout_below="@+id/input_service_code"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="#33B5E5"
+            android:layout_marginTop="10dp"
+            android:onClick="jsonTest"
+            />
+
+        <Button
+            android:id="@+id/autoshop_login_button"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="@string/autoshop_login"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="#33B5E5"
+            android:onClick="navigateToMechanicLogin"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
